@@ -17,7 +17,7 @@ st.set_page_config(
 )
 
 # Load model
-model = joblib.load("models/model.pkl")
+model = joblib.load("model.pkl")
 
 # Title halaman
 st.title("🧬 Dashboard Prediksi Jumlah Pasien HIV")
